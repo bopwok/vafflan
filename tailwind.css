@@ -619,8 +619,8 @@ video {
   display: flex;
 }
 
-.h-full {
-  height: 100%;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-full {
@@ -643,6 +643,18 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-yellow-400 {

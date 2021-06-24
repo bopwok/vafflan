@@ -93,8 +93,8 @@ $messages = [
 </head>
 
 <body>
-    <div class="h-full w-full bg-gray-900 flex items-center justify-center">
-    <h1 class="text-yellow-400 text-6xl"><?php echo $status_message[$ts_status]; ?></h1>
+    <div class="min-h-screen w-full bg-gray-900 flex items-center justify-center">
+    <h1 class="text-yellow-400 text-6xl uppercase font-semibold tracking-wide"><?php echo $status_message[$ts_status]; ?></h1>
     </div>
 </body>
 </html>
