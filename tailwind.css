@@ -615,6 +615,10 @@ video {
   --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
 .flex {
   display: flex;
 }
@@ -640,6 +644,10 @@ video {
   background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
@@ -660,4 +668,9 @@ video {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgba(251, 191, 36, var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
