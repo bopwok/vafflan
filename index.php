@@ -12,17 +12,17 @@ $status = [
 
 $condition = [
     'Unknown',
-    'Snow Groomed',
     'Snow Packed',
-    'Snow Covered',
-    'Freeze/thaw Cycle',
-    'Icy',
     'Prevalent Mud',
     'Wet',
     'Variable',
-    'Ideal',
     'Dry',
     'Very Dry',
+    'Snow Covered',
+    'Freeze/thaw Cycle',
+    'Icy',
+    'Snow Groomed',
+    'Ideal',
 ];
 
 
