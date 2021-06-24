@@ -20,7 +20,7 @@ class API {
     }
 
     function get_trail_status() {
-        $response = $this->client->request('GET', 'trail_status', ['timestamp'=>0, 'trailids'=>38169, 'app_id'=>$this->app_id, 'app_secret'=>$this->app_secret]);
+        $response = $this->client->request('GET', 'trail_status', ['query' => ['timestamp'=>0, 'trailids'=>38169, 'app_id'=>$this->app_id, 'app_secret'=>$this->app_secret]]);
 
         return json_decode($response->getBody());
     }
