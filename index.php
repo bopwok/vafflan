@@ -28,7 +28,6 @@ $condition = [
 
 $tf = new API();
 $ts = $tf->get_trail_status();
-var_dump($ts);
 
-echo $status[$ts->data->updates->trails_info->rows[0][1]];
-echo $condition[$ts->data->updates->trails_info->rows[0][2]];
+echo '<h1>'.$status[$ts->data->updates->trails_info->rows[0][1]].'</h1>';
+echo '<h2>'.$condition[$ts->data->updates->trails_info->rows[0][2]].'</h2>';
