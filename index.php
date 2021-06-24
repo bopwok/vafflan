@@ -23,7 +23,7 @@ $condition = [
     'Ideal',
     'Dry',
     'Very Dry',
-]
+];
 
 
 $tf = new API();
