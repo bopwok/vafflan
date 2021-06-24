@@ -640,8 +640,8 @@ video {
   background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-9xl {
+  font-size: 8rem;
   line-height: 1;
 }
 
