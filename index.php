@@ -3,4 +3,4 @@ require 'bootstrap.php';
 
 $tf = new API();
 
-dd($tf->get_trail_status());
+var_dump($tf->get_trail_status());
