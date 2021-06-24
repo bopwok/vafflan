@@ -1,0 +1,6 @@
+{
+    "name": "martin/vafflan",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
